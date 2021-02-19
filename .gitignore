@@ -1,0 +1,51 @@
+build/
+bin
+gen
+out
+workspace.xml
+*.bak
+
+## generic files to ignore
+*~
+*.DS_Store
+*.swp
+*.out
+*.class
+*.log
+
+## IntelliJ Proejct
+*.iml
+*.ipr
+*.iws
+*.imlj
+.idea/*
+out/
+
+## IntelliJ files to track
+## https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations.xml
+!.idea/codeInsightSettings.xml
+
+## Android Studio
+local.properties
+.gaeny
+
+## maven output
+/target
+*/target
+/reports
+*/reports
+
+bin/
+logs/
+
+## Gradle
+/build
+/captures
+.externalNativeBuild
+.gradle
+classes/
+
